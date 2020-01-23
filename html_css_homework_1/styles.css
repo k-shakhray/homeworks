@@ -1,0 +1,59 @@
+html {
+    font-family: 'Heebo', sans-serif;
+    font-size: 16pt;
+    font-weight: 600;
+    letter-spacing: 0.1em;
+}
+
+
+.pageNav {
+    padding: 30px;
+    text-align: center
+}
+
+.pageNav a {
+    margin: 35px;
+    text-decoration: none;
+    font-size: 18pt;
+    font-weight: 600;
+    color: #0f8c75;
+    text-transform: uppercase;
+}
+.pageNav a:hover {
+    color:#5cbcd6
+}
+
+.contentName {
+    text-transform: uppercase;
+    font-size: 20pt;
+}
+
+.pageSection {
+    background: #d9d9d9;
+    text-align: center
+}
+
+.pageContent {
+    padding: 20px 10% 100px 10%;
+}
+
+.pageContent * {
+    margin: 25px;
+}
+
+.buttonMore {
+    letter-spacing: 0.1em;
+    padding: 20px 40px;
+    font-weight: 800;
+    color: white;
+    text-decoration: none;
+    border-radius: 8px;
+    background: #16a085;
+}
+.buttonMore:hover {background:#5cbcd6}
+
+
+.pageFooter {
+    padding: 35px;
+    text-align: right;
+}
