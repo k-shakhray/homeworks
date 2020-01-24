@@ -1,0 +1,151 @@
+body {
+    width: 1280px;
+    margin: 0 auto;
+    font-family: sans-serif;
+}
+
+
+.title-name {
+    font-size: 40px;
+}
+
+.title-name a {
+    text-decoration: none;
+    color: black;
+}
+
+.title-second-color {
+    color: dodgerblue;
+    font-size: 40px;
+}
+
+.page-head {
+    margin: 50px 0;
+}
+
+.website-navigation {
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 50px;
+    background-color: darkslategray;
+    padding: 20px;
+    font-size: 18px;
+}
+
+.website-navigation a {
+    color: white;
+    text-decoration: none;
+    padding: 20px 40px;
+}
+
+.website-navigation a:hover, .website-navigation a:focus {
+    padding: 20px 39px;
+    background-color: #1c3939;
+    border-left: 1px solid #399c9c;
+    border-right: 1px solid #399c9c;
+}
+
+
+.page-content {
+
+}
+
+.page-navigation {
+    display: block;
+    float: left;
+    width: 20%;
+    margin: 0 1% 0 0;
+    border: 1px solid gray;
+    font-size: 18px;
+}
+
+.page-navigation a {
+    color: #6e6e6e;
+    display: block;
+    padding: 10px 20px;
+    text-decoration: none;
+}
+
+.page-navigation a:hover, .page-navigation a:focus {
+    color: white;
+    display: block;
+    background-color: #a7a7a9;
+    padding: 10px 40px;
+    text-decoration: none;
+}
+
+.content {
+    display: inline-block;
+    float: right;
+    width: 77%;
+}
+
+.content p {
+    margin: 40px 20px;
+}
+
+.imageDiv {
+    border: 1px solid gray;
+    width: 100%;
+    height: 400px;
+    overflow: hidden;
+    /*background: url("https://d2eip9sf3oo6c2.cloudfront.net/tags/images/000/000/943/full/ramda.png") no-repeat center;*/
+    /*background-size: contain;*/
+    /*background-color: white;*/
+}
+
+.imageDiv img {
+    width: 40%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    transition: transform .5s ease;
+}
+
+.imageDiv:hover img {
+    transform: scale(1.5)
+}
+
+/*.image:hover {*/
+/*    transform: scale(1.1);*/
+/*    transition: 1s;*/
+/*}*/
+
+.page-footer {
+    width: 100%;
+    border: 1px solid gray;
+    margin: 20px 0;
+    background: gray;
+    float: none;
+    clear: both;
+    font-size: 18px;
+}
+
+
+.page-footer span {
+    display: inline-block;
+    padding: 20px 35px;
+}
+
+.second-page-navigation {
+    display: inline-block;
+    padding: 20px 0;
+}
+
+.second-page-navigation a {
+    margin: 10px 40px;
+    color: white;
+    text-decoration: none;
+}
+
+.second-page-navigation a:focus, .second-page-navigation a:hover {
+    color: blue;
+    text-decoration: underline;
+}
+
+
+.copyright {
+    float: right;
+    margin-right: 35px;
+}
