@@ -2,11 +2,13 @@
     width: 1280px;
     margin: 0 auto;
     font-family: sans-serif;
+    /*font-stretch: 150%;*/
 }
 
 
 .title-name {
-    font-size: 40px;
+    font-size: 52px;
+    margin-bottom: 55px;
 }
 
 .title-name a {
@@ -16,19 +18,17 @@
 
 .title-second-color {
     color: dodgerblue;
-    font-size: 40px;
+    font-size: 52px;
 }
 
 .page-head {
-    margin: 50px 0;
+    margin: 55px 0;
 }
 
 .website-navigation {
     display: inline-block;
     width: 100%;
-    /*margin: 50px auto;*/
     text-align: center;
-    margin-bottom: 50px;
     background-color: darkslategray;
     padding: 20px 0;
     font-size: 18px;
