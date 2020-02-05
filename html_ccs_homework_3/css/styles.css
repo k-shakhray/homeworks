@@ -143,17 +143,10 @@
     transition-duration: 300ms;
 }
 
-.section-container:hover .section-description {
+.section-container:hover .section-description, .description-right-part, .description-left-part {
     height: 63px;
 }
 
-.section-container:hover .description-right-part {
-    opacity: 1;
-}
-
-.section-container:hover .description-left-part {
-    opacity: 1;
-}
 
 .section-container:not(:hover) .description-right-part {
     opacity: 0;
