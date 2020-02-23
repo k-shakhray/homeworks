@@ -8,13 +8,13 @@ let previousB;
 do {
     numA = prompt('Enter first number:', previousA);
     previousA = numA;
-} while (isNaN(+numA) || numA === '');
+} while (isNaN(+numA) || !numA || numA === ' ');
 
 
 do {
     numB = prompt('Enter second number:', previousB);
     previousB = numB;
-} while (isNaN(+numB) || numB === '');
+} while (isNaN(+numB) || !numB || numB === ' ');
 
 do {
     oper = prompt('Enter operator:')
