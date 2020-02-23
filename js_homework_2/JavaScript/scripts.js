@@ -1,23 +1,16 @@
-/*
-    1. Описать своими словами в несколько строчек, зачем в программировании нужны циклы.
-
-Чтобы многократно выполнить одно и тоже действие, к примеру проверку на валидность.
-*/
-
 console.log('Multiple of 5:');
 
 let num;
 
 do {
     num = +prompt('Enter your number:');
-} while (Number.isInteger(num) === false);
+} while (!Number.isInteger(num) || isNaN(num));
 
 if (num >= 5) {
     for (let a = 0; a <= num; a++) {
         if (a % 5 === 0) console.log(a);
     }
-}
-else {
+} else {
     console.log('Sorry, no numbers');
 }
 
@@ -32,9 +25,11 @@ let n;
 
 do {
     m = +prompt('Enter first number:');
+} while (isNaN(m) || !(m >= 2) || !Number.isInteger(m));
+
+do {
     n = +prompt('Enter second number:');
-} while (m >= 1 && Number.isInteger(m) === false &&
-        n >= m && Number.isInteger(n) === false);
+} while (isNaN(n) || !(n >= m) || !Number.isInteger(n));
 
 let isPrime;
 
