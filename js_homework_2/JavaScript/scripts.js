@@ -4,7 +4,7 @@ let num;
 
 do {
     num = +prompt('Enter your number:');
-} while (!Number.isInteger(num) || isNaN(num));
+} while (!Number.isInteger(num) || isNaN(num) || ' ');
 
 if (num >= 5) {
     for (let a = 0; a <= num; a++) {
@@ -26,7 +26,6 @@ let n;
 do {
     m = +prompt('Enter first number:');
 } while (isNaN(m) || !(m >= 2) || !Number.isInteger(m));
-
 do {
     n = +prompt('Enter second number:');
 } while (isNaN(n) || !(n >= m) || !Number.isInteger(n));
