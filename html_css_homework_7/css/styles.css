@@ -1,0 +1,51 @@
+.page-container {
+    height: 100vh;
+    width: 100%;
+    overflow: hidden;
+    background: black;
+    font-family: sans-serif;
+    perspective: 500px;
+}
+
+.page-animation {
+    position: relative;
+    top: 1000px;
+    animation: sw-intro 30s linear infinite;
+    /*transform-origin: 50% 100%;*/
+    color: orange;
+    font-weight: bold;
+}
+
+.page-animation h2 {
+    text-align: center;
+    font-size: 120px;
+    text-transform: uppercase;
+    margin-bottom: 150px;
+}
+
+.page-animation h1 {
+    text-align: center;
+    font-size: 130px;
+    text-transform: uppercase;
+    margin-bottom: 150px;
+}
+
+.page-animation p {
+    text-align: left;
+    font-size: 100px;
+    margin-bottom: 100px;
+}
+
+@keyframes sw-intro {
+    0% {
+        bottom: 0px;
+        transform: rotateX(40deg)  translateZ(400px);
+    }
+
+    100% {
+        top: -4200px;
+        transform: rotateX(40deg) translateZ(-2500px);
+    }
+}
+
+
