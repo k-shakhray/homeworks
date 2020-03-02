@@ -4,7 +4,7 @@ let num;
 
 do {
     num = +prompt('Enter your number:');
-} while (!Number.isInteger(num) || isNaN(num) || ' ');
+} while (!Number.isInteger(num) || isNaN(num) || !num);
 
 if (num >= 5) {
     for (let a = 0; a <= num; a++) {
