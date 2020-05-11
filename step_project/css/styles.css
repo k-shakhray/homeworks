@@ -766,11 +766,13 @@
     box-shadow:  0 0 0 4px rgba(23, 99, 74, 0.68);
     margin: 0 20px;
     outline: none;
+    transition: transform 1s;
 }
 
 .slick-active button {
     transform: translateY(-12px);
     border: 1px solid #18cfab;
+    transition: transform 1s;
 }
 
 #slick-slide-control00 {
