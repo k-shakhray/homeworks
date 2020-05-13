@@ -251,3 +251,7 @@
     visibility: hidden;
 }
 
+.page-pricing-plan-table th, .page-pricing-plan-table td {
+    box-shadow: inset 7px 0 10px -10px rgba(0, 0, 0, 0.4);
+}
+
